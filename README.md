@@ -21,7 +21,8 @@ This image is specifically set up to forward Consul DNS from `127.0.0.1:8600` to
 ## Hacking
 
 With [`acbuild`](https://github.com/appc/acbuild) installed, run `make
-dnsmasq-latest-linux-amd64.aci` or `make all` to create and sign.
+dnsmasq-2.75-r1-linux-amd64.aci` or `make all DNSMASQ_VERSION=2.75-r1` to create
+and sign.
 
 ## License
 
