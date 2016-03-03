@@ -2,7 +2,7 @@
 set -e
 
 DNSMASQ_VERSION=${1:-"2.75-r1"}
-ALPINE_VERSION=${1:-"3.3"}
+ALPINE_VERSION=${2:-"3.3"}
 
 if [ "$EUID" -ne 0 ]; then
     echo "This script uses functionality which requires root privileges"
