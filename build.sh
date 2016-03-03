@@ -34,4 +34,4 @@ acbuild port add dns tcp 53
 # run dnsmasq
 acbuild set-exec -- /usr/sbin/dnsmasq --no-daemon
 
-acbuild write --overwrite dnsmasq-latest-linux-amd64.aci
+acbuild write --overwrite dnsmasq-${DNSMASQ_VERSION}-linux-amd64.aci
